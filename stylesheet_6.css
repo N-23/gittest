@@ -1,0 +1,46 @@
+body
+{
+	background:#cccc99;
+	font-family: Sans-Serif;
+	/*font-family: monospace;*/
+}
+
+.copyright
+{
+	font-weight:bold;
+	font-size:0.8em;
+}
+
+.code
+{
+	font-family:monospace;
+	font-size:0.9em;
+}
+
+ol
+{
+	font-family:italic;
+	font-size:0.9em;
+	/*font:italic 0.9em serif;*/
+}
+
+h1
+{
+	font-family: Times New Roman,Serif;
+	font-size:1.2em;
+	/*letter-spacing:2em;
+	word-spacing:2em;
+	text-decoration:underline;
+	text-decoration:underline line-through;
+	text-decoration:line-through;*/
+	text-align:center;
+}
+
+.content
+{ 
+	background: #eeeecc;
+	padding:7px;	
+	/*text-indent:3em;
+	text-align:justify;
+	line-height:1.2em;*/
+}
