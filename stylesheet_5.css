@@ -1,0 +1,61 @@
+/*Border drawn against ul is flush against all the borders of the window.The box is only drawn to a height that will fully encapsulate all of the content that's inside.*/
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+body
+{
+	background-color:#cccccc;
+}
+
+.menu
+{
+	list-style:none;
+	text-align:center;
+}
+
+.menu li:hover
+{ 	
+ 	background-color:#cc9999;
+}
+
+.menu li
+{	
+	width:150px;	
+	display:inline-block;	
+	/*display:inline;	
+	width:180px;
+	width:40%;*/	
+	text-align:center;	
+	background-color:#cccc99;
+	/*margin:5px;*/
+	padding:3px 0 0 10px;/*Setting padding for top,right,bottom,left*/	
+	/*padding:10px;
+	margin:25px;
+	border-style:solid;
+	border-color:black;
+	border-width:2px;
+	border-bottom-style:solid;
+	border-bottom-color:black;
+	border-bottom-width:2px;*/
+	border-bottom:3px solid #000000;
+	/*border-left:10px solid #cc3333;*/
+}
+
+.menu li a
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+/*To find very specific list ul element:-nth child,the 3rd nth child which count the number of chlidren inside of a ul element
+ul li:nth-child(3)
+{
+	visibility:hidden;//visibility of 3rd list will be hidden	
+	display:none;//For removing the 3rd list
+	background-color:#cccc99;
+	padding:10px;//Here white space comes from default padding and margin rules that are inherited from the user agent stylesheet
+	margin:25px;//Going to push the 3rd nth child away from the top,bottom,left side,right side
+}*/
