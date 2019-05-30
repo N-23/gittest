@@ -1,0 +1,29 @@
+*
+{
+	color:White;
+}
+h1,h2 {
+	background-color:#cccc99;
+}
+
+div {
+	background-color:#ff0000;
+	width:50%;
+}
+
+#content {
+	background-color:#00ff00;
+	font-size:x-large;
+	/*font-size:28pt;
+	font-size:1.0em;*/
+	border-style:solid;
+	border-color:Black;
+	border-width:thick;
+	/*border-width:12px;
+	border-width:12mm;*/
+	width:50%;
+}
+
+.quotation {
+	background-color:#0000ff;
+}
