@@ -1,0 +1,15 @@
+div p
+{
+	background-color:Gray;
+}
+
+#content
+{
+	background-color:Fuchsia;
+}
+
+p
+{
+	background-color:Green;
+	font-size:2em;
+}
